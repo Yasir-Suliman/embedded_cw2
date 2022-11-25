@@ -13,7 +13,7 @@ int main(){
   while(1){
     int ButtonsInput = ADC_Read(0);
     int temp = ADC_Read(1);
-    float temp_cel = (temp*500.0)/1024.0;
+    float temp_cel = (temp*500.0)/1024.0; // converting Adc value to Celsius
     Serial.print("Current: ");
     Serial.println(temp_cel);
     Serial.print("Limit: ");
