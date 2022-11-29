@@ -4,7 +4,8 @@
 void DIO_init(){
  DIO_SetPinDirection('c', 0, 'i');
  DIO_SetPinDirection('c', 1, 'i');
- DIO_SetPinDirection('d', 7, 'o');
+ DIO_SetPinDirection('d', 2, 'o');
+
 }
 
 // set Pin to INPUT or OUTput
